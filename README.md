@@ -5,7 +5,7 @@
  We have been using this tool for every web project, and find it very useful for frontend development.
 
 
- JS Version is all included with necesarry CSS and code.
+ **JS Version is all included** with necesarry CSS styles and code.
 
   **Keyboard Controls:**
 
@@ -21,7 +21,8 @@
 ## Three ways to use:
 
 
-  1. **Include JS :** Add x-debug-css.js to your project scripts ( Recommended  )
+  1. **Include JS :**
+  Add x-debug-css.js to your project scripts (Recommended)
 
   ~~~
   <script src="./x-debug-css.js" type="text/javascript" language="javascript"></script>
@@ -29,7 +30,8 @@
 
   Use it for project development with ease
 
-  2. **Include CSS** Add x-debug-css.css to your project styles
+  2. **Include CSS**
+  Add x-debug-css.css to your project styles
 
   ~~~
     <link href="./x-debug-css.css" rel="stylesheet" />
