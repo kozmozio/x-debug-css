@@ -8,7 +8,7 @@
 
   Shift + X : **Enables Outlined debugger**
 
-  ![Twtiter Login Section](https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true)
+  <img src="https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true" width="200"/>
 
 
 ## 3 ways to use
