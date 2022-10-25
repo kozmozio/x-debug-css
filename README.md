@@ -40,4 +40,4 @@
 
 
 
-derived and utilized from zaydek's debug-css library.
+derived and utilized from @zaydek's debug-css library.
