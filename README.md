@@ -21,7 +21,7 @@
 ## Three ways to use:
 
 
-  1. **Include JS :** x-debug-css.js to your project  ( Recommended  )
+  1. **Include JS :** Add x-debug-css.js to your project scripts ( Recommended  )
 
   ~~~
   <script src="./x-debug-css.js" type="text/javascript" language="javascript"></script>
@@ -29,7 +29,7 @@
 
   Use it for project development with ease
 
-  2. **Include CSS** x-debug-css.css to your project**
+  2. **Include CSS** Add x-debug-css.css to your project styles
 
   ~~~
     <link href="./x-debug-css.css" rel="stylesheet" />
@@ -47,8 +47,4 @@
 
 
 
-
-
-
-
-derived and utilized from @zaydek's debug-css library.
+Project is derived and utilized from @zaydek's debug-css library.
