@@ -6,12 +6,12 @@
 
   *Keyboard Controls:*
 
-  Shift + D : **Enables Blueprint debugger**
+  Shift + D : **Enables blueprint debugger**
 
-  Shift + X : **Enables Outlined debugger**
+  Shift + X : **Enables outlined debugger**
 
   Twitter login section sample :
-  
+
   <img src="https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true" width="300"/>
 
 
