@@ -1,4 +1,4 @@
-# X-Debug-CSS
+# X Debug CSS
 
  This is a CSS debugger tool to debug web layouts with CSS visual abstraction.
 
@@ -11,6 +11,7 @@
   Shift + X : **Enables Outlined debugger**
 
   Twitter login section sample :
+  
   <img src="https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true" width="300"/>
 
 
