@@ -2,7 +2,7 @@
 
  This is a CSS debugger tool for visual abstraction of DOM elements of the current HTML page.
 
- We have been using this tool for any web project, and
+ We have been using this tool for every web project, and find it very useful for frontend development.
 
 
  JS Version is all included with necesarry CSS and code.
