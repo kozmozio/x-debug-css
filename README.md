@@ -1,6 +1,8 @@
 # X-Debug-CSS
 
- This is a CSS debugger tool to debug web layouts with CSS abstraction.
+ This is a CSS debugger tool to debug web layouts with CSS visual abstraction.
+
+ JS Version is all included with necesarry CSS and code.
 
   *Keyboard Controls:*
 
@@ -8,7 +10,8 @@
 
   Shift + X : **Enables Outlined debugger**
 
-  <img src="https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true" width="200"/>
+  Twitter login section sample :
+  <img src="https://github.com/kozmozio/x-debug-css/blob/main/sample-twitter-login.png?raw=true" width="300"/>
 
 
 ## 3 ways to use
@@ -21,7 +24,8 @@
   ~~~
 
 
-  2. Include x-debug-css.css to your project and add "x-debug-css" to your body style manually
+  2. Include x-debug-css.css to your project and add  .x-debug-css class to your body style.
+
   ~~~
     <link href="./x-debug-css.css" rel="stylesheet" />
   ~~~
