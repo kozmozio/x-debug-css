@@ -22,6 +22,7 @@
 
 
   1. **Include JS :**
+
   Add x-debug-css.js to your project scripts (Recommended)
 
   ~~~
@@ -31,6 +32,7 @@
   Use it for project development with ease
 
   2. **Include CSS**
+  
   Add x-debug-css.css to your project styles
 
   ~~~
