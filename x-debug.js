@@ -1,4 +1,4 @@
-// X-Debug-CSS
+// CSS Sytles
 var style = document.createElement('style');
 style.innerHTML = `
     .x-debug-css :not(g):not(path)  {
@@ -15,10 +15,8 @@ style.innerHTML = `
     filter: none !important;
   }`;
 
-
-//
+// Add styles to docuöent head
 document.head.appendChild(style);
-
 
 // Key listener
 document.onkeydown = function (event) {
