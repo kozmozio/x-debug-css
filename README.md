@@ -44,9 +44,16 @@
 
   3. **Use bookmarklet**
 
-    Use with any web page
+    Use as bookmarklet on your Chrome toolbar. Click and inspect any website!
 
-    Save bookmark.html to your computer and drag it to the bookmarks bar
+    - Save bookmark.html to your computer and open.
+    - Bookmark this local page ( file may be  delete later )
+    - Copy link address on text [javascript:var style=document.createElement('style');style.innerHTML=` .debug-css :not(g):not(path){color: hsla(210, 80%, 100%, 0.9) !important; background: hsla(210, 80%, 50%, 0.5) !important; outline: solid 0.125rem hsla(210, 80%, 100%, 0.5) !important; box-shadow: none !important; filter: none !important;}.debug-css-outlined :not(g):not(path){outline: 1px solid red !important;; box-shadow: none !important; filter: none !important;}`;document.head.appendChild(style);document.documentElement.classList.toggle('debug-css');](x-debugCSS)  right mouse click
+    - Edit your bookmark in Chrome and change URL with copied link URL 
+    - Save and close.
+    
+    Your x-debugCSS bookmarklet is ready 🖖🏼
+
     Click [bookmark] for any page you want to X Debug CSS layout.
 
 
