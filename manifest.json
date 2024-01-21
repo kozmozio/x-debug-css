@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "X Debug CSS Extension",
+    "version": "1.0",
+    "description": "Toggle debug styles for web pages",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_title": "Toggle Debug Styles"
+
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+      },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["x-debug.js"]
+      }
+    ]
+  }
+  
