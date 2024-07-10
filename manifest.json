@@ -13,7 +13,8 @@
         "48": "icon.png",
         "128": "icon.png"
       },
-      "default_title": "Toggle Debug Styles"
+      "default_title": "Toggle Debug Styles",
+      "default_popup": "popup.html"
 
     },
     "icons": {

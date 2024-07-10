@@ -9,7 +9,7 @@
 
   **Keyboard Controls:**
 
-  **Shift + D :** Enables blueprint debugger
+  **Shift + C :** Enables blueprint debugger
 
   **Shift + X :** Enables outlined debugger
 
