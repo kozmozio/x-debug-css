@@ -26,7 +26,7 @@ document.head.appendChild(style);
 // Key listener
 document.onkeydown = function (event) {
   event = event || window.event;
-  if (event.code === 'KeyC' && event.shiftKey === true ) {
+  if (event.code === 'KeyC' && event.shiftKey === true  ) {
         document.documentElement.classList.toggle("x-debug-css");
   }else  if (event.code === 'KeyX' && event.shiftKey === true ) {
     document.documentElement.classList.toggle("x-debug-css-outlined");
