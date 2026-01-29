@@ -10,7 +10,7 @@ style.innerHTML = `
 
 }
 .x-debug-css-outlined :not(g):not(path){
-    outline: 0.75px solid red !important;
+    outline: 1px solid red !important;
     box-shadow: none !important;
     filter: none !important;
   }
@@ -26,9 +26,9 @@ document.head.appendChild(style);
 // Key listener
 document.onkeydown = function (event) {
   event = event || window.event;
-  if (event.code === 'KeyC' && event.shiftKey === true  ) {
+  if (event.code === 'KeyX' && event.shiftKey === true  ) {
         document.documentElement.classList.toggle("x-debug-css");
-  }else  if (event.code === 'KeyX' && event.shiftKey === true ) {
+  }else  if (event.code === 'KeyO' && event.shiftKey === true ) {
     document.documentElement.classList.toggle("x-debug-css-outlined");
   }
 }
