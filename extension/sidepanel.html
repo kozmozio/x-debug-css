@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>x-debug-css</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">x<span>debug</span>css</div>
+    <p class="tagline">Visual CSS Debugger</p>
+  </header>
+
+  <main>
+    <div class="btn-group">
+
+      <button id="btn-blueprint" class="mode-btn" data-mode="blueprint">
+        <span class="btn-icon blueprint-icon"></span>
+        <div class="btn-text">
+          <span class="btn-label">Blueprint</span>
+          <span class="btn-desc">Blue overlay on all elements</span>
+        </div>
+        <kbd>⇧ D</kbd>
+      </button>
+
+      <button id="btn-outlined" class="mode-btn" data-mode="outlined">
+        <span class="btn-icon outlined-icon"></span>
+        <div class="btn-text">
+          <span class="btn-label">Outlined</span>
+          <span class="btn-desc">Red outline on all elements</span>
+        </div>
+        <kbd>⇧ X</kbd>
+      </button>
+
+      <button id="btn-depth" class="mode-btn" data-mode="depth">
+        <span class="btn-icon depth-icon"></span>
+        <div class="btn-text">
+          <span class="btn-label">Depth Colors</span>
+          <span class="btn-desc">Rainbow outline by nesting depth</span>
+        </div>
+        <kbd>⇧ C</kbd>
+      </button>
+
+    </div>
+
+    <div id="error-banner" class="error-banner hidden">
+      Cannot run on this page (chrome:// or restricted URL).
+    </div>
+  </main>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
